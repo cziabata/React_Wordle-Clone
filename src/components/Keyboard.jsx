@@ -12,11 +12,11 @@ const Keyboard = () => {
                 {keys1.map(key=><Key keyVal={key} key={key}/>)}
             </div>
             <div className="line">
-                {keys1.map(key=><Key keyVal={key} key={key}/>)}
+                {keys2.map(key=><Key keyVal={key} key={key}/>)}
             </div>
             <div className="line">
                 <Key keyVal={"ENTER"} bigKey/>
-                {keys1.map(key=><Key keyVal={key} key={key}/>)}
+                {keys3.map(key=><Key keyVal={key} key={key}/>)}
                 <Key keyVal={"DELETE"} bigKey/>
             </div>
         </div>
